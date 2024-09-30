@@ -1,1 +1,2 @@
 # Lesson-27-exception-handeling
+The code prompts the user to enter a temperature in Celsius and attempts to convert it to Fahrenheit using the formula `F = (C * 9/5) + 32`. It then prints the Fahrenheit value and the ratio of Fahrenheit to Celsius (F/C). The `try` block handles potential errors: if the user enters an invalid value that can't be converted to an integer, a `ValueError` is caught, and it prints "Invalid input". If the user enters `0` for Celsius, which would cause a division by zero, the `ZeroDivisionError` is caught, and it prints "Celsius cannot be 0".
